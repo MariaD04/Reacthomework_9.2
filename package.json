@@ -25,5 +25,5 @@
     "moment": "^2.30.1",
     "vite": "^5.2.0"
   },
-  "proxy": "http://localhost:7070/posts"
+  "proxy": "http://localhost:7070"
 }
