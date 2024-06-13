@@ -5,7 +5,7 @@ function ClosableHeader({ children, to = "/", onClose }) {
   return (
     <nav className="navbar">
       <span className="navbar-brand">{children}</span>
-      <Link to={to} className="btn btn-close" onClick={onClose}>X</Link>
+      <Link to={to} className="btn btn-close" onClick={onClose}>✘</Link>
     </nav>
   )
 }

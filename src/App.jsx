@@ -15,7 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage posts={posts} />} />
           <Route path="/posts/:pId" element={<PostRoute />} />
-          <Route path="*" element={<ClosableHeader>Страница не найдена</ClosableHeader>} />
+          <Route path="*" element={<ClosableHeader>Не найдено</ClosableHeader>} />
         </Routes>
       </div>
     </div>
