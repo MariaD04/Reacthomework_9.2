@@ -2,8 +2,7 @@ import React from 'react'
 import ClosableHeader from './ClosableHeader'
 import PostCardExtended from './PostCardExtended'
 
-export default function PostView({ post, onEdit, onDelete }) {
-    
+function PostView({ post, onEdit, onDelete }) {
     return (
         <>
             <ClosableHeader />
@@ -13,5 +12,7 @@ export default function PostView({ post, onEdit, onDelete }) {
                 <button className="btn btn-delete" onClick={() => { onDelete(post.id) }}>Удалить</button>
             </div>
         </>
-    );
+    )
 }
+
+export default PostView 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LikeAndComment() {
+function LikeAndComment() {
     return (
         <div className="liked-comment-container">
             <div className="liked-comment">
@@ -12,3 +12,5 @@ export default function LikeAndComment() {
         </div>
     )
 }
+
+export default LikeAndComment

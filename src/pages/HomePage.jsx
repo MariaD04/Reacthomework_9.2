@@ -23,4 +23,4 @@ function HomePage({ posts = [] }) {
     )
   }
   
-  export default HomePage;
+  export default HomePage

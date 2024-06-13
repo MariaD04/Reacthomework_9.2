@@ -7,7 +7,7 @@ import ClosableHeader from '../components/ClosableHeader';
 import PostCreateOrUpdate from '../components/PostCreateOrUpdate';
 import PostView from '../components/PostView';
 
-export default function PostRoute() {
+function PostRoute() {
     const [edit, setEdit] = useState(false)
     const { posts, deletePost } = usePosts()
     const navigate = useNavigate()
@@ -48,5 +48,7 @@ export default function PostRoute() {
                 <NotFound />
             )}
         </>
-    );
+    )
 }
+
+export default PostRoute 

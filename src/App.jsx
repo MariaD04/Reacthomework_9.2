@@ -7,7 +7,7 @@ import ClosableHeader from "./components/ClosableHeader";
 import { usePosts } from "./contexts/PostsContext";
 
 export default function App() {
-  const { posts } = usePosts();
+  const { posts } = usePosts()
 
   return (
     <div className="app-container">
@@ -19,5 +19,5 @@ export default function App() {
         </Routes>
       </div>
     </div>
-  );
+  )
 }
