@@ -2,8 +2,8 @@ import React from 'react'
 import ClosableHeader from './ClosableHeader'
 import PostCardExtended from './PostCardExtended'
 
-export default function PostView(props) {
-    const { post, onEdit, onDelete } = props
+export default function PostView({ post, onEdit, onDelete }) {
+    
     return (
         <>
             <ClosableHeader />
